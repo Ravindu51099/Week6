@@ -1,7 +1,10 @@
+# Import specific functions from the users module
+# These functions represent student-related actions in the system
+
 from users import (
-    student_login,
-    submit_assignment,
-    view_grades
+    student_login,       # Handles student login functionality
+    submit_assignment,   # Simulates assignment submission
+    view_grades          # Displays student grades
 )
 
 
